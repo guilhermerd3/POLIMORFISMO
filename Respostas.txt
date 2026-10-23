@@ -1,0 +1,3 @@
+1) A sobrescrita permite que subclasses redefinam métodos herdados da superclasse mantendo a mesma assinatura. Graças ao polimorfismo dinâmico, o Java identifica o tipo real do objeto instanciado em tempo de execução.Assim, uma mesma chamada (como mover()) aciona automaticamente o comportamento específico de cada veículo.
+
+2) A sobrecarga permite que você crie vários métodos com o mesmo nome dentro de uma mesma classe, desde que eles tenham assinaturas diferentes (ou seja, alterando a quantidade, o tipo ou a ordem dos parâmetros). O compilador diferencia cada versão unicamente por sua assinatura.
